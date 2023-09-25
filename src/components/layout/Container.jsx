@@ -57,7 +57,7 @@ function Container() {
     <div className={styles.container}>
       <div className={styles.title} >
         <h1>CineFlix: Explore the World of Cinema with a Click</h1>
-        <p>Discover the movies you love and delve into all the details you want to know with CineFlix. Simply enter the movie title in the search bar and uncover engaging synopses, ratings, cast information, and stunning posters. Satisfy your passion for cinema now!</p>
+        <p>Discover the movies you love and delve into all the details you want to know with CineFlix. Simply enter the movie title in the search bar and uncover engaging synopses, ratings, cast information, and stunning posters.</p>
       </div>
       <div className={styles.search}>
         <div className={styles.divInput}> 
