@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #2c2b2b;
+    padding: 1em;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+
+    h1 {
+        margin-left: 1rem;
+    }
+}

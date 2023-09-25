@@ -1,0 +1,130 @@
+.container{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #363636;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1{
+        padding: 1em;
+    }
+
+    p{
+        width: 50%;
+        margin-bottom: 2em;
+    }
+}
+
+.search {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .searchField{
+        width: 80%;
+
+        @media screen and (max-width: 980px) {
+            width: 100%;
+        }
+    }
+    
+  
+    @media screen and (max-width: 980px) {
+      /* Quando a tela for menor que 768px, o layout será alterado */
+      flex-direction: column;
+    }
+  
+    .divInput {
+      width: 65%;
+      justify-content: end;
+      display: flex;
+  
+      @media screen and (max-width: 980px) {
+        /* Quando a tela for menor que 768px, ocupa 100% da largura */
+        width: 100%;
+      }
+    }
+  
+    .divButtons {
+      width: 50%;
+  
+      @media screen and (max-width: 980px) {
+        /* Quando a tela for menor que 768px, ocupa 100% da largura */
+        width: 100%;
+        margin-top: 10px; /* Espaçamento entre as divs */
+        justify-content: center;
+        display: flex;
+      }
+  
+      /* Estilos para os botões dentro da div */
+      .Button {
+        margin-left: 20px; /* Espaçamento entre os botões */
+        max-width: 150px;
+        width: 100%;
+      }
+    }
+  }
+
+.movieContainer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+
+    div {
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 850px) {
+        flex-direction: column; // Altera a direção do flex para empilhar as divs verticalmente
+      }
+}
+
+.review{
+    padding: 1rem 0;
+}
+
+.FavoriteButton{
+    max-width: 150px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    // margin-top: 5%;
+}
+
+.box {
+    margin: 5%;
+}
+
+.synopsis{
+    margin: 5% 0;
+}
+
+.img {
+    border: 3px solid white;
+}
+
+.notFoundMovie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 6%;
+
+    p{
+        font-size: 2rem;
+    }
+}
